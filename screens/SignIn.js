@@ -14,7 +14,7 @@ import loadUser from '../actions/users/load';
 import signIn from '../actions/users/sign-in';
 import styles from './SignUp.styles';
 
-class SignUp extends Component {
+class SignIn extends Component {
   constructor(props) {
     super(props);
 
@@ -89,4 +89,4 @@ class SignUp extends Component {
 
 const mapStateToProps = ({ user, loading }) => ({ user, loading });
 
-export default connect(mapStateToProps, { loadUser, signIn })(SignUp);
+export default connect(mapStateToProps, { loadUser, signIn })(SignIn);

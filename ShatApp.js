@@ -16,6 +16,7 @@ export default class ShatApp extends Component {
           <Scene key="root">
             <Scene key="signIn" component={SignIn} title="Sign In" initial={true} />
             <Scene key="signUp" component={SignUp} title="Sign Up" />
+            <Scene key="chatRoom" component={ChatRoom} title="Chat!" />
           </Scene>
         </Router>
       </Provider>
