@@ -11,6 +11,7 @@
     "feathers": "^2.1.1",
     "feathers-authentication": "0.7.11",
     "feathers-hooks": "^2.0.0",
+    "feathers-localstorage": "^1.0.0",
     "feathers-socketio": "^1.6.0",
     "react": "16.0.0-alpha.6",
     "react-native": "0.43.3",
