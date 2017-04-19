@@ -32,9 +32,13 @@ export default StyleSheet.create({
 	},
 	author: {
 		fontWeight: 'bold',
-		marginTop: 10,
+
 	},
 	message: {
-
+		marginTop: 5,
+		marginBottom: 5,
+		padding: 5,
+		backgroundColor: '#f4f4f4',
+		borderRadius: 10,
 	}
 });
