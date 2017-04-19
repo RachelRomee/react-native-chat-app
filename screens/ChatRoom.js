@@ -80,16 +80,10 @@ class ChatRoom extends Component {
           { user && user.error ? <Text style={styles.error}>{user.error.name} { user.error.message }</Text> : null }
 
           <ScrollView
-              ref = {
-                  ref => this.scrollView = ref
-              }
-              onContentSizeChange = {
-                  (contentWidth, contentHeight) => {
-                      this.scrollView.scrollToEnd({
-                          animated: true
-                      });
-                  }
-              } >
+              ref = { ref => this.scrollView = ref }
+              onContentSizeChange = { (contentWidth, contentHeight) => {
+                this.scrollView.scrollToEnd({ animated: true });
+              }} >
             { this.props.messages.map((message, index) => (
               <View ref={`msg${index}`} key={index} style={styles.message}>
                 <Text style={styles.author}>{message.author}</Text>
