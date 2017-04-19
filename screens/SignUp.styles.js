@@ -10,7 +10,6 @@ export default StyleSheet.create({
     paddingHorizontal: 20,
     paddingTop: 20,
   },
-
   title: {
     fontSize: 30,
     alignSelf: 'center',
